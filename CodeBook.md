@@ -111,19 +111,19 @@ La siguiente tabla describe todas las variables de la tabla 'tidy_data_summary'.
 Para cargar el 'tidy_data_summary' en R correctamente,
 use el siguiente comando:
  
-''
+'''
 tidy_data_summary <- read.table (file = "tidy_data_summary.txt",
                                 header = TRUE, check.names = FALSE, dec = ".")
-''
+'''
  
 O para una carga más rápida, se pueden especificar algunos argumentos adicionales:
  
-''
+'''
 tidy_data_summary <- read.table (file = "tidy_data_summary.txt",
                                 header = TRUE, check.names = FALSE, dec = ".",
                                 colClasses = c ("numérico", "factor", rep ("numérico", 66)),
                                 nrows = 180, comment.char = "", quote = "")
-''
+'''
    
 ### Acerca de la tabla 'tidy_data_summary'
 
