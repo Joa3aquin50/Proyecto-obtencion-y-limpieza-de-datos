@@ -36,11 +36,11 @@ del conjunto de datos original:
  
 La siguiente tabla describe todas las variables de la tabla 'tidy_data_summary'.
  
-| Índice | Variables | Clase | Rango | Descripción |
-| ------- | ------------------------------ | -------- | --------- | ------------------------------- -------------------------------------------------- -------------------------- |
-| 1 | sujeto | entero | 1 - 30 | Identifica al sujeto humano. |
-| 2 | actividad | factor | 1 - 6 | Identifica la actividad. Labels: CAMINAR, CAMINAR POR LA PLANTA ARRIBA, CAMINAR POR LA PLANTA BAJA, SENTARSE, DE PIE, COLOCARSE |
-| 3 | Avrg-tBodyAcc-mean () - X | numérico | [-1, 1] | Dominio del tiempo, promedio de las medias de la aceleración corporal en el eje X. |
+| Índice  | Variables                      | Clase    | Rango     | Descripción                                                                                                 |
+| ------- | ------------------------------ | -------- | --------- | ------------------------------- -------------------------------------------------- -------------------------|
+| 1       | sujeto                         | entero   | 1 - 30    | Identifica al sujeto humano.                                                                                |
+| 2       | actividad | factor | 1 - 6 | Identifica la actividad. Labels: CAMINAR, CAMINAR POR LA PLANTA ARRIBA, CAMINAR POR LA PLANTA BAJA, SENTARSE, DE PIE, COLOCARSE |
+| 3       | Avrg-tBodyAcc-mean () - X | numérico | [-1, 1] | Dominio del tiempo, promedio de las medias de la aceleración corporal en el eje X. |
 | 4 | Avrg-tBodyAcc-mean () - Y | numérico | [-1, 1] | Dominio del tiempo, promedio de las medias de la aceleración corporal en el eje Y. |
 | 5 | Avrg-tBodyAcc-mean () - Z | numérico | [-1, 1] | Dominio del tiempo, promedio de medias para la aceleración corporal en el eje Z. |
 | 6 | Avrg-tBodyAcc-std () - X | numérico | [-1, 1] | Dominio del tiempo, promedio de desviaciones estándar para la aceleración del cuerpo en el eje X. |
