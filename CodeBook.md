@@ -144,14 +144,14 @@ Este conjunto de datos fue creado para las necesidades de:
  
 La tabla de datos se puede reproducir,
 ya que todos los scripts necesarios están disponibles en el repositorio de Git Hub
-[Asignación de datos de obtención y limpieza] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos).
+[Asignación de datos de obtención y limpieza](https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos).
 Antes de intentar reproducirlo,
 Deben tenerse en cuenta las siguientes notas:
  
   - El accedió a los datos utilizados para la descarga en la url:
     "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
   - Los datos fueron procesados ​​por el script.
-    '[run_analysis.R] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
+    '[run_analysis.R](https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
     para crear la tabla 'tidy_data_summary'.
   - Los scripts se ejecutaron en RStudio (versión 1.1.383)
   - Se utilizó la librería 'dplyr' versión 0.7.4.
@@ -161,7 +161,7 @@ Deben tenerse en cuenta las siguientes notas:
 
 Para producir la tabla 'tidy_data_summary',
 la secuencia de comandos
-'[run_analysis.R] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
+'[run_analysis.R](https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
 fue creado y utilizado.
 Realiza las siguientes tareas:
  
@@ -216,9 +216,9 @@ Realiza las siguientes tareas:
    5. Escriba los datos en un archivo de texto en el directorio de trabajo actual,
       por el comando:
     
-      '''
+      ```
       write.table (tidy_data_summary, "tidy_data_summary.txt", row.names = FALSE)
-      '''
+      ```
     
 ***
 ### Información sobre la recopilación de datos sin procesar
@@ -278,7 +278,7 @@ La tabla 'tidy_data_summary' se creó utilizando el siguiente conjunto de datos:
  
  
 Se puede encontrar más información sobre el conjunto de datos original.
-[aquí] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+`[aquí](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)`.
  
  
 ***
