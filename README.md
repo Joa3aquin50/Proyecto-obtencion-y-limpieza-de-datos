@@ -48,7 +48,7 @@ Como se describe en 'CodeBood.md':
 
 > Para producir la tabla 'tidy_data_summary',
 la secuencia de comandos
-'[run_analysis.R] (111111)'
+'[run_analysis.R](https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
 fue creado y utilizado.
 
 > Realiza las siguientes tareas:
@@ -113,7 +113,7 @@ El ordenado conjunto de datos que fue producido por el script 'run_analysis.txt'
 que contiene los promedios de las características seleccionadas del original
 'Reconocimiento de actividad humana mediante el conjunto de datos de teléfonos inteligentes versión 1.0'.
 La
-'[CodeBook.md] (2222222)'
+'[CodeBook.md](https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/CodeBook.md)'
 contiene los detalles sobre la tabla 'tidy_data_summary'.
 
 ### CodeBook.md
