@@ -111,19 +111,21 @@ La siguiente tabla describe todas las variables de la tabla 'tidy_data_summary'.
 Para cargar el 'tidy_data_summary' en R correctamente,
 use el siguiente comando:
  
-'''
+```
+
 tidy_data_summary <- read.table (file = "tidy_data_summary.txt",
                                 header = TRUE, check.names = FALSE, dec = ".")
-'''
+                                               
+```
  
 O para una carga más rápida, se pueden especificar algunos argumentos adicionales:
  
-'''
+```
 tidy_data_summary <- read.table (file = "tidy_data_summary.txt",
                                 header = TRUE, check.names = FALSE, dec = ".",
                                 colClasses = c ("numérico", "factor", rep ("numérico", 66)),
                                 nrows = 180, comment.char = "", quote = "")
-'''
+```
    
 ### Acerca de la tabla 'tidy_data_summary'
 
@@ -142,14 +144,14 @@ Este conjunto de datos fue creado para las necesidades de:
  
 La tabla de datos se puede reproducir,
 ya que todos los scripts necesarios están disponibles en el repositorio de Git Hub
-[Asignación de datos de obtención y limpieza] (https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment).
+[Asignación de datos de obtención y limpieza] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos).
 Antes de intentar reproducirlo,
 Deben tenerse en cuenta las siguientes notas:
  
   - El accedió a los datos utilizados para la descarga en la url:
     "http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones"
   - Los datos fueron procesados ​​por el script.
-    '[run_analysis.R] (https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)'
+    '[run_analysis.R] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
     para crear la tabla 'tidy_data_summary'.
   - Los scripts se ejecutaron en RStudio (versión 1.1.383)
   - Se utilizó la librería 'dplyr' versión 0.7.4.
@@ -159,7 +161,7 @@ Deben tenerse en cuenta las siguientes notas:
 
 Para producir la tabla 'tidy_data_summary',
 la secuencia de comandos
-'[run_analysis.R] (https://github.com/jzstats/Getting-and-Cleaning-Data-Assignment/blob/master/run_analysis.R)'
+'[run_analysis.R] (https://github.com/Joa3aquin50/Proyecto-obtencion-y-limpieza-de-datos/blob/main/run_analysis.R)'
 fue creado y utilizado.
 Realiza las siguientes tareas:
  
